@@ -1,0 +1,11 @@
+body {
+  background-image: url('img/website1.png');
+  background-size: cover;
+}
+
+
+.icon1{
+  position: fixed;
+  top:204px;
+  left:727.5px;
+}

@@ -1,0 +1,27 @@
+
+body {
+  background-image: url('img/website2.png');
+  background-size: cover;
+}
+
+
+.enter{
+  position: absolute;
+  top:645px;
+  left:390px;
+}
+
+.enter:hover{
+
+content: url('img/enter2.png');
+  position: absolute;
+  top:645px;
+  left:390px;
+width:300px;
+}
+
+.icon1{
+  position: absolute;
+  top:204px;
+  left:727.5px;
+}

@@ -36,12 +36,6 @@ left:100px;
 z-index:110;
 }
 
-
-
-
-
-
-
 .p2{
   position: absolute;
   top:500px;
@@ -60,24 +54,16 @@ z-index:110;
   font-family: garamond-fb-display, serif;
 font-weight: 300;
 font-style: italic;
-position: absolute;
+position: fixed;
 top:700px;
 left:100px;
+z-index:110;
 }
-.overlayleft{
-  height:100%;
-  width:0;
-  top:0;
-  left:0;
-}
-
-
-
 
 .p3{
   position: absolute;
   top:900px;
-  left:10px;
+  left:100px;
 }
 .overlay{
   background-color: white;
@@ -92,19 +78,10 @@ left:100px;
   font-family: garamond-fb-display, serif;
 font-weight: 300;
 font-style: italic;
-position: absolute;
+position: fixed;
 top:700px;
 left:100px;
 }
-.overlayleft{
-  height:100%;
-  width:0;
-  top:0;
-  left:0;
-}
-
-
-
 
 .p4{
   position: absolute;
@@ -124,11 +101,12 @@ left:100px;
   font-family: garamond-fb-display, serif;
 font-weight: 300;
 font-style: italic;
-position: absolute;
-height: 20px;
-width: 600px;
-top:500px;
-left:600px;
+position: fixed;
+height: 300px;
+width: 500px;
+top:400px;
+left:100px;
+z-index:110;
 }
 .overlayleft{
   height:100%;
@@ -142,7 +120,7 @@ left:600px;
 
 .p5{
   position: absolute;
-  top:1600px;
+  top:1800px;
   left:500px;
 }
 .overlay{
@@ -158,25 +136,19 @@ left:600px;
   font-family: garamond-fb-display, serif;
 font-weight: 300;
 font-style: italic;
-position: absolute;
-height: 30px;
-width: 450px;
+position: fixed;
 top:700px;
 left:100px;
+z-index:110;
 }
-.overlayleft{
-  height:100%;
-  width:0;
-  top:0;
-  left:0;
-}
+
 
 
 
 
 .p6{
   position: absolute;
-  top:1700px;
+  top:1900px;
   left:2500px;
 }
 .overlay{
@@ -192,23 +164,18 @@ left:100px;
   font-family: garamond-fb-display, serif;
 font-weight: 300;
 font-style: italic;
-position: absolute;
+position: fixed;
 top:700px;
 left:100px;
-}
-.overlayleft{
-  height:100%;
-  width:0;
-  top:0;
-  left:0;
+z-index:110;
 }
 
 
 
 .p7{
   position: absolute;
-  top:1500px;
-  left:2100px;
+  top:1850px;
+  left:2000px;
 }
 .overlay{
   background-color: white;
@@ -223,15 +190,10 @@ left:100px;
   font-family: garamond-fb-display, serif;
 font-weight: 300;
 font-style: italic;
-position: absolute;
+position: fixed;
 top:700px;
 left:100px;
-}
-.overlayleft{
-  height:100%;
-  width:0;
-  top:0;
-  left:0;
+z-index:110;
 }
 
 
@@ -239,7 +201,7 @@ left:100px;
 
 .p8{
   position: absolute;
-  top:500px;
+  top:200px;
   left:3000px;
 }
 .overlay{
@@ -255,23 +217,40 @@ left:100px;
   font-family: garamond-fb-display, serif;
 font-weight: 300;
 font-style: italic;
-position: absolute;
+position: fixed;
 top:700px;
 left:100px;
+z-index: 110;
 }
-.overlayleft{
-  height:100%;
-  width:0;
-  top:0;
-  left:0;
-}
+
 
 
 
 .p9{
   position: absolute;
-  top:1100px;
-  left:2700px;
+  top:1000px;
+  left:3400px;
+}
+
+
+.p10{
+  position: absolute;
+  top:1000px;
+  left:3700px;
+}
+
+.p11{
+  position: absolute;
+  top:1400px;
+  left:4150px;
+}
+
+
+
+.p12{
+  position: absolute;
+  top:1000px;
+  left:2800px;
 }
 .overlay{
   background-color: white;
@@ -279,20 +258,66 @@ left:100px;
   transition: all .3s ease;
   opacity: 0;
 }
-.p9:hover .overlay{
+.p12:hover .overlay{
   opacity: 1;
 }
-.w9{
+.w12{
   font-family: garamond-fb-display, serif;
 font-weight: 300;
 font-style: italic;
-position: absolute;
-top:700px;
+position: fixed;
+height: 300px;
+width: 500px;
+top:500px;
 left:100px;
+z-index:110;
 }
-.overlayleft{
-  height:100%;
-  width:0;
-  top:0;
-  left:0;
+
+
+
+.p13{
+  position: absolute;
+  top:1050px;
+  left:2700px;
+}
+
+
+.p14{
+  position: absolute;
+  top:200px;
+  left:4200px;
+}
+.overlay{
+  background-color: white;
+  position: absolute;
+  transition: all .3s ease;
+  opacity: 0;
+}
+.p14:hover .overlay{
+  opacity: 1;
+}
+.w14{
+  font-family: garamond-fb-display, serif;
+font-weight: 300;
+font-style: italic;
+position: fixed;
+height: 300px;
+width: 500px;
+top:450px;
+left:100px;
+z-index:110;
+}
+
+
+.p15{
+  position: absolute;
+  top:2500px;
+  left:2900px;
+}
+
+
+.p16{
+  position: absolute;
+  top:4000px;
+  left:5000px;
 }

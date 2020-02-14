@@ -11,14 +11,16 @@ body {
   left:390px;
 }
 
-.enter:hover{
-
-content: url('img/enter2.png');
+.enterb{
   position: absolute;
   top:645px;
   left:390px;
-width:300px;
 }
+
+.enter:hover{
+opacity: 0;
+}
+
 
 .icon1{
   position: absolute;

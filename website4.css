@@ -1,0 +1,74 @@
+body {
+  background-image: url('img/website4.png');
+  background-size: cover;
+}
+
+.q1{
+  position: absolute;
+  top:50pt;
+  left:190pt;
+  font-family: odisseia, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}
+
+.q2{
+  position: absolute;
+  width: 900pt;
+  top:140pt;
+  left:190pt;
+  font-family: odisseia, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}
+
+.q3{
+  position: absolute;
+  top:220pt;
+  left:190pt;
+  width: 900pt;
+  font-family: odisseia, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}
+
+
+.q4{
+  position: absolute;
+  width: 900pt;
+  top:310pt;
+  left:190pt;
+  font-family: odisseia, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}
+
+.q5{
+  position: absolute;
+  width: 900pt;
+  top:395pt;
+  left:190pt;
+  font-family: odisseia, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}

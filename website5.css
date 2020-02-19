@@ -1,0 +1,15 @@
+body {
+  background-image: url('img/chat.png');
+  background-size: cover;
+}
+
+
+.content{
+position: absolute;
+top:17%;
+left:31.5%;
+width: auto;
+    height: 530px;
+   overflow-y: scroll;
+    white-space: nowrap;
+}

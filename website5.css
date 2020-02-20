@@ -1,15 +1,63 @@
-body {
-  background-image: url('img/chat.png');
-  background-size: cover;
+.bg{
+  position: fixed;
+  top:0%;
+  left:0%;
 }
-
 
 .content{
 position: absolute;
 top:17%;
-left:31.5%;
+left:36%;
 width: auto;
-    height: 530px;
+    height: 64%;
    overflow-y: scroll;
     white-space: nowrap;
+}
+
+
+.send2{
+  position: absolute;
+  top:84.5%;
+  left:77%;
+}
+
+.send{
+  position: absolute;
+  top:84.5%;
+  left:77%;
+}
+
+
+.send:hover{
+opacity: 0;
+}
+
+.cre{
+  position: absolute;
+  top:47.5%;
+  left:10.5%;
+}
+
+
+.cross{
+  position: absolute;
+  top:11.25%;
+  left:35.2%;
+}
+
+
+.bar2{
+  position: absolute;
+  top:84.5%;
+  left:38.2%;
+}
+
+.bar{
+  position: absolute;
+  top:84.5%;
+  left:38.2%;
+}
+
+.bar:hover{
+opacity: 0;
 }

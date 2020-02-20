@@ -1,20 +1,19 @@
-
-body {
-  background-image: url('img/website2.png');
-  background-size: cover;
+.bg{
+  position: fixed;
+  top:0%;
+  left:0%;
 }
-
 
 .enter{
   position: absolute;
-  top:645px;
-  left:390px;
+  top:76%;
+  left:27.1%;
 }
 
 .enterb{
   position: absolute;
-  top:645px;
-  left:390px;
+  top:76%;
+  left:27.1%;
 }
 
 .enter:hover{
@@ -24,6 +23,21 @@ opacity: 0;
 
 .icon1{
   position: absolute;
-  top:204px;
-  left:727.5px;
+  top:24.5%;
+  left:50.6%;
+}
+
+.move{
+  position: absolute;
+  top:90.5%;
+  left:8.35%;
+  width:83%;
+
+}
+
+
+.icon2{
+  position: absolute;
+  top:47.9%;
+  left:76.07%;
 }

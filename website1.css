@@ -1,11 +1,65 @@
-body {
-  background-image: url('img/website1.png');
-  background-size: cover;
+.bg{
+  position: fixed;
+  top:0%;
+  left:0%;
+}
+
+.icon1{
+  position: absolute;
+  top:23.9%;
+  left:50.5%;
 }
 
 
-.icon1{
-  position: fixed;
-  top:204px;
-  left:727.5px;
+.icon2{
+  position: absolute;
+  top:48%;
+  left:76%;
+}
+
+
+.icon3{
+  position: absolute;
+  top:56.5%;
+  left:43.98%;
+}
+
+.apple{
+  position: absolute;
+  top:0%;
+  left:2.5%;
+}
+
+.gif{
+  position: absolute;
+  top:91%;
+  left:32%;
+}
+
+
+
+.line{
+position: absolute;
+top:1%;
+left:97.7%;
+}
+nav{
+  font-family: odisseia, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+  position: absolute;
+  top:90.3%;
+  left:44%;
+}
+
+nav a{
+  color:black;
+  text-decoration: none;
+
+}
+
+nav a:hover{
+  color:grey;
 }

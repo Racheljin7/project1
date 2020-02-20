@@ -3,8 +3,8 @@ font-family: gimlet-micro, serif;
 font-weight: 400;
 font-style: normal;
 position: fixed;
-top:30px;
-left:30px;
+top:5%;
+left:5%;
 z-index:110;
 }
 
@@ -23,18 +23,23 @@ z-index:110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p1:hover .overlay{
+.p1:hover + .overlay{
   opacity: 1;
 }
 .w1{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
-top:700px;
-left:100px;
+top:85%;
+left:10%;
 z-index:110;
 }
+
+
+
+
+
 
 .p2{
   position: absolute;
@@ -47,16 +52,16 @@ z-index:110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p2:hover .overlay{
+.p2:hover + .overlay{
   opacity: 1;
 }
 .w2{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
-top:700px;
-left:100px;
+top:85%;
+left:10%;
 z-index:110;
 }
 
@@ -71,17 +76,19 @@ z-index:110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p3:hover .overlay{
+.p3:hover + .overlay{
   opacity: 1;
 }
 .w3{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
-top:700px;
-left:100px;
+top:85%;
+left:10%;
 }
+
+
 
 .p4{
   position: absolute;
@@ -94,26 +101,21 @@ left:100px;
   transition: all .3s ease;
   opacity: 0;
 }
-.p4:hover .overlay{
+.p4:hover + .overlay{
   opacity: 1;
 }
 .w4{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
 height: 300px;
 width: 500px;
-top:400px;
-left:100px;
+top:60%;
+left:10%;
 z-index:110;
 }
-.overlayleft{
-  height:100%;
-  width:0;
-  top:0;
-  left:0;
-}
+
 
 
 
@@ -129,16 +131,16 @@ z-index:110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p5:hover .overlay{
+.p5:hover + .overlay{
   opacity: 1;
 }
 .w5{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
-top:700px;
-left:100px;
+top:85%;
+left:10%;
 z-index:110;
 }
 
@@ -157,16 +159,16 @@ z-index:110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p6:hover .overlay{
+.p6:hover + .overlay{
   opacity: 1;
 }
 .w6{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
-top:700px;
-left:100px;
+top:85%;
+left:10%;
 z-index:110;
 }
 
@@ -183,16 +185,16 @@ z-index:110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p7:hover .overlay{
+.p7:hover + .overlay{
   opacity: 1;
 }
 .w7{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
-top:700px;
-left:100px;
+top:85%;
+left:10%;
 z-index:110;
 }
 
@@ -210,16 +212,16 @@ z-index:110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p8:hover .overlay{
+.p8:hover + .overlay{
   opacity: 1;
 }
 .w8{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
-top:700px;
-left:100px;
+top:85%;
+left:10%;
 z-index: 110;
 }
 
@@ -258,18 +260,18 @@ z-index: 110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p12:hover .overlay{
+.p12:hover + .overlay{
   opacity: 1;
 }
 .w12{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
 height: 300px;
 width: 500px;
-top:500px;
-left:100px;
+top:65%;
+left:10%;
 z-index:110;
 }
 
@@ -293,18 +295,18 @@ z-index:110;
   transition: all .3s ease;
   opacity: 0;
 }
-.p14:hover .overlay{
+.p14:hover + .overlay{
   opacity: 1;
 }
 .w14{
-  font-family: garamond-fb-display, serif;
-font-weight: 300;
-font-style: italic;
+  font-family: poynter-gothic-text, sans-serif;
+  font-weight: 300;
+  font-style: italic;
 position: fixed;
 height: 300px;
 width: 500px;
-top:450px;
-left:100px;
+top:65%;
+left:10%;
 z-index:110;
 }
 
